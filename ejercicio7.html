@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio7</title>
+</head>
+<body>
+    <h1>Registro</h1>
+    <form action="https://webhook.site/d9664e05-7b6f-4e53-ba4e-1fedb4f083c1" method="POST" target="_blank">
+        <label for="Nombre">Nombre: </label>
+        <input type="text" name="Nombre" placeholder="nombre" required>
+        <label for="Apellido">Apellido: </label>
+        <input type="text" name="Apellido" placeholder="apellido" required><br>
+        Hombre<input type="radio" name="sexo"> 
+        Mujer <input type="radio" name="sexo">
+        Otro<input type="radio" name="sexo"><br>
+        
+        <label for="email">Email: </label> 
+        <input type="email" name="email" placeholder="tu email" required>
+        <label for="Password">Password: </label> 
+        <input name="password" type="password"  minlength="5" maxlength="10" placeholder="tu password" required><br>
+        <label for="Birthday">Birthday: </label> 
+        <input type="date" name="birthday">
+        <br>
+        <label for="aceptar">Acepto la condiciones de uso</label> <input type="checkbox" name="aceptar" required>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
